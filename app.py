@@ -8,7 +8,7 @@ from google.genai.errors import APIError
 from qdrant_client import QdrantClient
 
 st.set_page_config(page_title="Rajen Vakil Transcripts AI", page_icon="🎙️", layout="centered")
-st.title("🎙️ Ask Rajen Vakil's Talks")
+st.title("TavariaG-PT")
 st.caption("Search across Gujarati & English transcripts with exact timestamp citations.")
 
 COLLECTION_NAME = "rajen_vakil_talks"
